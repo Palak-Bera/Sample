@@ -19,6 +19,12 @@ int main(){
        case 2:
             cout<<"Minus : "<< a - b;
             break;
+       case 3:
+            cout<<"Multiplication : "<< a * b;
+            break;
+       case 4:
+            cout<<"Division : "<< a / b;
+            break;
 
         default:
             cout << "Invalid Choice";
